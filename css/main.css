@@ -43,7 +43,7 @@ p {
 	margin-left: auto;
 	padding: 5px 25px;
 	border: solid 1px black;
-	width: 75px;
+	width: 110px;
 	text-align: center;
 	position: relative;
 	top: -1px;
@@ -132,7 +132,7 @@ p {
 	}
 
 	.mobile-h2 {
-		display: block;
+		display: inline;
 	}
 }
 
