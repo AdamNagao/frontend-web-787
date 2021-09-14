@@ -5,6 +5,8 @@ body {
 h1 {
 	text-align: center;
 	font-size: 175%;
+	margin-bottom: 1.75em;
+    margin-top: 1.25em;
 }
 
 h2 {
@@ -16,6 +18,11 @@ h2 {
 p {
 	font-size: 100%;
 	margin: 0px;
+}
+
+.container {
+	margin-left: 7px;
+    margin-right: 7px;
 }
 
 .row {
