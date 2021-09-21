@@ -1,19 +1,29 @@
 .card {
 	background-color: gray;	
-	padding: 12px;
+	padding: 18px;
 	margin: 15px 0px;
 }
 
 h1 {
 	margin-bottom: 20px;
+	font-size: 30px;
 }
 
-.business-title {
-	font-size: 36px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+h3 {
+	margin-top: 0px;
+	margin-bottom: 14px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	color: black !important;
 }
 
 .navbar-header {
 	padding: 15px;
+}
+
+.row {
+	padding-left: 15px;
+	padding-right: 15px;
 }
