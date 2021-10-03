@@ -161,11 +161,11 @@ dc.loadMenuItems = function (categoryShort) {
 
 dc.loadAbout = function() {
     showLoading("#main-content");
-    $ajaxUtils.sendGetRequest(menuItemsUrl + "about", buildAbout);
+    document.getElementById("main-content").innerHTML='<object type="text/html" data="home.html" ></object>';
 }
 
 function buildAbout() {
-  
+
 }
 
 
