@@ -159,6 +159,11 @@ dc.loadMenuItems = function (categoryShort) {
     buildAndShowMenuItemsHTML);
 };
 
+dc.loadAbout = function() {
+    showLoading("#main-content");
+    $ajaxUtils.sendGetRequest(menuItemsUrl + "about", buildAndShowMenuItemsHTML);
+}
+
 
 // Builds HTML for the categories page based on the data
 // from the server
