@@ -160,7 +160,7 @@ dc.loadMenuItems = function (categoryShort) {
 };
 
 dc.loadAbout = function() {
-    showLoading("#main-content");
+    //showLoading("#main-content");
     document.getElementById("main-content").innerHTML='<object type="text/html" data="snippets/about.html" ></object>';
 }
 
