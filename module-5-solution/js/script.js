@@ -43,7 +43,7 @@ var insertProperty = function (string, propName, propValue) {
   string = string
     .replace(new RegExp(propToReplace, "g"), propValue);
   return string;
-};
+}
 
 // Remove the class 'active' from home and switch to Menu button
 var switchMenuToActive = function () {
