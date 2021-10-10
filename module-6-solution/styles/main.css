@@ -1,0 +1,16 @@
+.message p { 
+	font-size: 1.3em; 
+	font-weight: bold; 
+}
+
+.green {
+	color: green;
+	border: 1px solid green;
+	padding: 10px;
+}
+
+.red {
+	color: red;
+	border: 1px solid red;
+	padding: 10px;
+}
