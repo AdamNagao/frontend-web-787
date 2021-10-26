@@ -17,7 +17,7 @@
                <h2>To Buy:</h2>
                <ul>
                   <li ng-repeat="item in toBuy.itemsToBuy">
-                     <p>Buy {{item.quantity}} {{item.name}}</p>
+                     <p>Buy <input type="number" ng-model="item.quantity" /> {{item.name}}</p>
                      <button class="button btn-primary" ng-click="toBuy.buyItem($index)">Bought</button>
                   </li>
                </ul>
